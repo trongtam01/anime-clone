@@ -5,11 +5,13 @@ import {
 } from '@reduxjs/toolkit';
 import counterReducer from '../features/counter/counterSlice';
 import kanyeReducer from '../features/kanye/kanyeSlice';
+import animeReducer from '../features/anime/animeSlice'
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
     kanyeQuote: kanyeReducer,
+    anime: animeReducer,
   },
 });
 

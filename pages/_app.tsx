@@ -1,6 +1,8 @@
 import { Provider } from 'react-redux';
 import type { AppProps } from 'next/app';
 import { store } from '../app/store';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '../sass/index.scss'
 
 function MyApp({
   Component, pageProps,

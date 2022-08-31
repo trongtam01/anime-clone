@@ -7,14 +7,18 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "6.1.1",
     "@reduxjs/toolkit": "^1.8.5",
     "axios": "^0.27.2",
+    "lodash": "^4.17.21",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^8.0.2"
+    "react-redux": "^8.0.2",
+    "sass": "^1.54.5"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.184",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",

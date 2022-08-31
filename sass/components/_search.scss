@@ -1,0 +1,35 @@
+.search {
+    margin-top: calc($header-height + 20px);
+
+    @include tablet {
+         margin-top: $header-tablet-height;
+    }
+
+    @include mobile {
+         margin-top: $header-mobile-height;
+    }
+
+    &__container {
+        
+    }
+
+    &__input {
+        @include flex(center, flex-start);
+
+        input {
+            flex: 1;
+            padding: 5px;
+            outline: none;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-color: none;
+        }
+
+        i {
+            border: 1px solid $main-bg;
+            padding: 8px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }   
+}

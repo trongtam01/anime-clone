@@ -1,0 +1,15 @@
+.anime__detail {
+    margin-top: calc($header-height + 20px);
+
+    @include tablet {
+         margin-top: $header-tablet-height;
+    }
+
+    @include mobile {
+         margin-top: $header-mobile-height;
+    }
+
+    &__container {
+        
+    }
+}
